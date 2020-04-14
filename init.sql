@@ -1,4 +1,4 @@
-create table pusers(id number(3) primary key ,userid varchar2(12),password varcharr2(16));
+create table pusers(id number(3) primary key ,userid varchar2(12),password varchar2(16));
 
 create table messages (sender number(3), reciever number(3), message varchar2(100), timestamp date );
 
